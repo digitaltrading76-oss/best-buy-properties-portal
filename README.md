@@ -24,3 +24,10 @@ This is a static HTML/CSS/JS website with a simple Node server, so it avoids Nex
 - San Juan: `https://your-domain.onrender.com/san-juan.html`
 
 Replace Messenger and phone links inside the HTML files if needed.
+
+
+## V2 Portal Updates
+- Homepage hero now uses a sliding image carousel for Eastwood, Baesa, and San Juan.
+- San Juan location advantage text now has readable contrast.
+- Eastwood, Baesa, and San Juan pages now include Google Maps embed sections.
+- San Juan page includes both embedded Google map and locator-map image.
