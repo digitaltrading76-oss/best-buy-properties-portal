@@ -1,33 +1,17 @@
-# Best Buy Properties Portal
+# Best Buy Properties Portal V2.2
 
-A unified real estate website for multiple property listings:
+Unified real estate portal for Eastwood City Condo, Baesa House & Lot, and San Juan Batangas Highway Property.
 
-- `/eastwood.html` — Eastwood City Condo For Sale
-- `/baesa.html` — Baesa Quezon City House & Lot For Sale
-- `/san-juan.html` — San Juan Batangas Highway Lot For Sale
+## V2.2 Updates
+- Removed Facebook-ads-focused public sections from the homepage.
+- Kept homepage image slider.
+- Added locator map sections for Eastwood, Baesa, and San Juan property pages.
+- Improved San Juan readable location cards.
+- Removed duplicate image from Baesa gallery.
+- Added expanded Baesa gallery layer with actual photos and visual presentation images.
 
-## Render Deployment
+## Deployment
+Upload all files to GitHub root, then deploy to Render.
 
-Use these settings:
-
-- Runtime: Node
-- Build Command: leave blank or use `echo no build needed`
-- Start Command: `npm start`
-- Node Version: 20
-
-This is a static HTML/CSS/JS website with a simple Node server, so it avoids Next.js build dependency problems.
-
-## Facebook Traffic URLs
-
-- Eastwood: `https://your-domain.onrender.com/eastwood.html`
-- Baesa: `https://your-domain.onrender.com/baesa.html`
-- San Juan: `https://your-domain.onrender.com/san-juan.html`
-
-Replace Messenger and phone links inside the HTML files if needed.
-
-
-## V2 Portal Updates
-- Homepage hero now uses a sliding image carousel for Eastwood, Baesa, and San Juan.
-- San Juan location advantage text now has readable contrast.
-- Eastwood, Baesa, and San Juan pages now include Google Maps embed sections.
-- San Juan page includes both embedded Google map and locator-map image.
+Build command: `npm install`
+Start command: `npm start`
