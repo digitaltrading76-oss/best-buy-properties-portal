@@ -38,3 +38,46 @@
 
 /* Portal V2.4: Clean Baesa actual-photo gallery, no duplicate or presentation-image strip */
 .baesa-clean-section{background:#faf7f1;padding-bottom:36px}.baesa-gallery-tabs{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px}.baesa-gallery-tabs a{background:var(--navy);color:white;border:1px solid rgba(212,175,55,.35);padding:12px 18px;border-radius:999px;font-weight:900;box-shadow:0 10px 24px rgba(7,29,57,.12)}.baesa-gallery-tabs a:hover{background:var(--gold);color:var(--navy)}.baesa-photo-layer{padding-top:54px;padding-bottom:54px;background:#fff}.baesa-photo-layer.light{background:#faf7f1}.layer-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:24px}.layer-heading h2{margin:6px 0 0;font-size:38px;color:var(--navy)}.layer-heading p{max-width:420px;color:var(--muted);font-size:17px;line-height:1.55;margin:0;text-align:right}.clean-gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.clean-gallery-grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.clean-gallery-grid.single-feature{grid-template-columns:minmax(0,720px);justify-content:center}.clean-gallery-grid figure{margin:0;background:white;border:1px solid rgba(212,175,55,.26);border-radius:26px;overflow:hidden;box-shadow:0 16px 42px rgba(7,29,57,.13);transition:.25s ease}.clean-gallery-grid figure:hover{transform:translateY(-5px);box-shadow:0 24px 64px rgba(7,29,57,.2)}.clean-gallery-grid img{width:100%;height:340px;object-fit:cover;object-position:center;border-radius:0;box-shadow:none}.clean-gallery-grid.single-feature img{height:520px}.clean-gallery-grid figcaption{padding:16px 18px;font-weight:900;color:var(--navy);background:white;border-top:1px solid rgba(212,175,55,.16)}@media(max-width:900px){.layer-heading{display:block;text-align:center}.layer-heading p{text-align:center;margin:12px auto 0}.clean-gallery-grid,.clean-gallery-grid.three,.clean-gallery-grid.single-feature{grid-template-columns:1fr}.clean-gallery-grid img,.clean-gallery-grid.single-feature img{height:auto}.baesa-gallery-tabs a{font-size:13px;padding:10px 13px}}
+
+
+/* EASTWOOD CONVERSION REVISION - June 2026 */
+.eastwood-hero{min-height:680px;display:flex;align-items:center;padding:92px 22px}
+.hero-badge{display:inline-flex;background:rgba(212,175,55,.14);border:1px solid rgba(212,175,55,.5);color:var(--gold);padding:10px 16px;border-radius:999px;font-weight:900;text-transform:uppercase;letter-spacing:3px;font-size:13px}
+.eastwood-hero h1{max-width:980px;font-size:72px;line-height:.96;margin:18px 0 18px;letter-spacing:-2px;text-shadow:0 10px 30px rgba(0,0,0,.28)}
+.hero-lead{font-size:23px!important;max-width:850px!important;line-height:1.5!important;color:#eef4fb!important;margin:0!important}
+.hero-pills a:first-child{background:var(--gold);color:#071d39;border-color:var(--gold);font-size:18px}
+.trust-strip{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.trust-strip span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);color:#fff;padding:11px 14px;border-radius:14px;font-weight:800}
+.actual-section{background:#fff;padding-top:70px}
+.actual-photo-grid{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:22px;align-items:stretch}
+.actual-photo-grid figure{margin:0;background:white;border:1px solid rgba(212,175,55,.28);border-radius:28px;overflow:hidden;box-shadow:0 18px 52px rgba(7,29,57,.14);transition:.25s ease}
+.actual-photo-grid figure:hover{transform:translateY(-5px);box-shadow:0 26px 72px rgba(7,29,57,.22)}
+.actual-photo-grid img{width:100%;height:360px;object-fit:cover}
+.actual-photo-grid .feature-photo img{height:520px}
+.actual-photo-grid figcaption{padding:18px 20px;color:var(--muted);line-height:1.55}
+.actual-photo-grid figcaption b{display:block;color:var(--navy);font-size:19px;margin-bottom:6px}
+.quick-facts-section{background:#faf7f1}
+.upgraded-stats .stat{background:#fff;box-shadow:0 14px 40px rgba(7,29,57,.08)}
+.facts-box{margin:28px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1000px;text-align:left}
+.facts-box div{background:white;border-left:5px solid var(--gold);border-radius:18px;padding:17px 18px;font-weight:900;box-shadow:0 10px 28px rgba(7,29,57,.08)}
+.value-section{background:linear-gradient(135deg,#071d39,#0b284d)}
+.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px;text-align:left}
+.value-card{background:rgba(255,255,255,.08);border:1px solid rgba(212,175,55,.28);border-radius:26px;padding:26px;box-shadow:0 20px 55px rgba(0,0,0,.12)}
+.value-card h3{font-size:24px;margin:0 0 12px;color:white}
+.value-card p{margin:0;color:#d9e6ef;line-height:1.6}
+.urgency-section{background:#fff}
+.urgency-box{background:linear-gradient(120deg,rgba(7,29,57,.96),rgba(7,29,57,.82)),url('assets/eastwood/living-area.jpg') center/cover;border-radius:34px;padding:56px 30px;color:white;box-shadow:var(--shadow);border:1px solid rgba(212,175,55,.3)}
+.urgency-box h2{color:white}
+.urgency-box .lead{color:#d9e6ef}
+.dark-outline{color:#071d39!important;border-color:#071d39!important;background:#fff}
+.eastwood-final-cta{background:linear-gradient(120deg,rgba(7,29,57,.95),rgba(7,29,57,.72)),url('assets/eastwood/main-door-view.jpg') center/cover!important}
+@media(max-width:900px){
+  .eastwood-hero{min-height:auto;padding:64px 18px}
+  .eastwood-hero h1{font-size:42px;letter-spacing:-1px}
+  .hero-lead{font-size:18px!important}
+  .hero-badge{font-size:11px;letter-spacing:2px}
+  .actual-photo-grid,.value-grid,.facts-box{grid-template-columns:1fr}
+  .actual-photo-grid img,.actual-photo-grid .feature-photo img{height:auto;max-height:none}
+  .trust-strip span{font-size:13px}
+  .mini-nav.hero-pills a{font-size:14px;padding:10px 12px}
+}
