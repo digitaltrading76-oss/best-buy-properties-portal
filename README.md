@@ -1,17 +1,30 @@
-# Best Buy Properties Portal V2.2
+# Best Buy Properties Portal V2.3
 
-Unified real estate portal for Eastwood City Condo, Baesa House & Lot, and San Juan Batangas Highway Property.
+Updated unified real estate portal for Eastwood, Baesa, and San Juan properties.
 
-## V2.2 Updates
-- Removed Facebook-ads-focused public sections from the homepage.
-- Kept homepage image slider.
-- Added locator map sections for Eastwood, Baesa, and San Juan property pages.
-- Improved San Juan readable location cards.
-- Removed duplicate image from Baesa gallery.
-- Added expanded Baesa gallery layer with actual photos and visual presentation images.
+## V2.3 Update
 
-## Deployment
-Upload all files to GitHub root, then deploy to Render.
+- Fixed Baesa property gallery duplicate issue.
+- Removed repeated Baesa facade/outside duplicate image from the public gallery.
+- Added an additional Baesa gallery layer for more property visuals.
+- Added Baesa promotional poster and investment visual materials.
+- Kept the Baesa gallery organized into:
+  - Actual Property Photos
+  - Property Visuals & Presentation Images
+- Maintained existing maps, slider, and property pages.
 
-Build command: `npm install`
-Start command: `npm start`
+## Deploy on Render
+
+Build command:
+
+```bash
+npm install
+```
+
+Start command:
+
+```bash
+npm start
+```
+
+This portal is a static HTML/CSS/JS site served by Express.

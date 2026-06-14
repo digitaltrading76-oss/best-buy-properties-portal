@@ -25,3 +25,13 @@
 .baesa-gallery.extra{grid-template-columns:repeat(2,1fr)}
 .baesa-gallery.extra figure img{height:360px;object-fit:cover}
 @media(max-width:900px){.baesa-gallery.extra{grid-template-columns:1fr}.baesa-gallery figure img,.baesa-gallery.extra figure img{height:auto;max-height:none}}
+
+/* Portal V2.3: Baesa gallery cleanup and additional image layer */
+.baesa-gallery.actual-only{grid-template-columns:repeat(2,1fr);max-width:920px;margin:0 auto}
+.baesa-gallery.actual-only figure img{height:380px;object-fit:cover}
+.baesa-gallery.extra{grid-template-columns:repeat(3,1fr)}
+.baesa-gallery.extra figure img{height:330px;object-fit:cover;background:#f7f3eb}
+.baesa-gallery figure{transition:transform .25s ease, box-shadow .25s ease}
+.baesa-gallery figure:hover{transform:translateY(-6px);box-shadow:0 22px 60px rgba(7,29,57,.18)}
+.gallery-layer .lead{max-width:780px}
+@media(max-width:900px){.baesa-gallery.actual-only,.baesa-gallery.extra{grid-template-columns:1fr}.baesa-gallery.actual-only figure img,.baesa-gallery.extra figure img{height:auto}}
