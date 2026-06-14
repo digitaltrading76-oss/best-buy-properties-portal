@@ -1,30 +1,23 @@
-# Best Buy Properties Portal V2.3
+# Best Buy Properties Portal V2.4
 
-Updated unified real estate portal for Eastwood, Baesa, and San Juan properties.
+Updated unified property website for Render.
 
-## V2.3 Update
+## What changed in V2.4
 
-- Fixed Baesa property gallery duplicate issue.
-- Removed repeated Baesa facade/outside duplicate image from the public gallery.
-- Added an additional Baesa gallery layer for more property visuals.
-- Added Baesa promotional poster and investment visual materials.
-- Kept the Baesa gallery organized into:
-  - Actual Property Photos
-  - Property Visuals & Presentation Images
-- Maintained existing maps, slider, and property pages.
+- Rebuilt the lower Baesa page gallery into a clean actual-photo gallery.
+- Removed the previous messy “Property Visuals & Presentation Images” strip.
+- Removed public-facing revision wording like “duplicate photos removed.”
+- Added the uploaded Baesa photos in organized layers:
+  - Exterior
+  - Ground Floor
+  - Kitchen
+  - Second Floor
+  - Stairs & Landing
+- Avoided duplicate gallery photos.
 
 ## Deploy on Render
 
-Build command:
+Build command: `npm install`
+Start command: `npm start`
 
-```bash
-npm install
-```
-
-Start command:
-
-```bash
-npm start
-```
-
-This portal is a static HTML/CSS/JS site served by Express.
+This is a static Express-hosted website.
